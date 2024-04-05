@@ -1,14 +1,14 @@
 const Express = require("express");
-const app = Express();
+const express = Express();
 
 const PORT = 6969
 
-app.get("/", async (req, res ) => {
+express.get("/", async (req, res ) => {
     res.send("express is best c:")
 });
 
-app.listen(PORT, () => {
+express.listen(PORT, () => {
     console.log("hooray")
 });
 
-module.exports = app
+module.exports = express
