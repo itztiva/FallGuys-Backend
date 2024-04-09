@@ -1,2 +1,4 @@
 # FallGuys Backend
- A backend that may work one day for fall guys if i feel liek it
+ A backend that may work one day for fall guys 
+
+ For certain things thanks to https://github.com/fallguys-stuff/fallguys-cms
