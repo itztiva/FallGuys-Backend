@@ -1,0 +1,49 @@
+const Express = require("express")
+const express = Express();
+
+express.get("/api/v1/socials", async (req, res) => {
+    res.json([
+        {
+          "id": "cabin_mode_feature_locked_redirection",
+          "url": "https://link.fallguys.com/parental-controls"
+        },
+        {
+          "id": "community_guidelines_faq",
+          "url": "https://www.epicgames.com/help/en-US/fall-guys-c9505712380315/general-c9505744689947/a14882251346843"
+        },
+        {
+          "id": "discord",
+          "url": "https://discordapp.com/invite/fallguys"
+        },
+        {
+          "id": "epic_account_delete",
+          "url": "https://www.epicgames.com/account/delete"
+        },
+        {
+          "id": "epic_account_settings",
+          "url": "https://www.epicgames.com/account"
+        },
+        {
+          "id": "epic_realid",
+          "url": "https://www.epicgames.com/realid/identity"
+        },
+        {
+          "id": "support_return",
+          "url": "https://link.fallguys.com/dlc-support"
+        },
+        {
+          "id": "support_url",
+          "url": "https://fallguyshelp.epicgames.com/"
+        },
+        {
+          "id": "twitter",
+          "url": "https://twitter.com/FallGuysGame"
+        },
+        {
+          "id": "website",
+          "url": "https://fallguys.com/"
+        }
+      ]);
+});
+
+module.exports = express
